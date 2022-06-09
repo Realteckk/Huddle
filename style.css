@@ -1,0 +1,221 @@
+body{
+    font-family: "poppins",sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    font-size: 2.68vmin;
+}
+
+.navbar>img{
+    width: 150px;
+}
+
+.navbar>p{
+    margin: auto;
+    align-items: center;
+    cursor: pointer;
+    font-size: 2vmin;
+    width: 60%;
+    border-radius: 20px;
+    font-weight: bolder;
+    padding: 2%;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+.navbar p:hover{
+    background-color: black;
+    color: wheat;
+}
+
+.header{
+    padding: 2%;
+    background-color: rgba(135, 207, 235, 0.651);
+    background-image: url('./images/bg-hero-desktop.svg');
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 85% 15%;
+}
+.header-body{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.header-body>div img{
+    width: 80%;
+}
+.body-1{
+    text-align: start;
+    padding: 10%;
+}
+.body-1>p{
+    margin-top: 20px;
+}
+.getstarted{
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+    padding: 2%;
+    width: 40%;
+    background-color: rgb(126, 52, 123);
+    color: white;
+}
+.getstarted:hover{
+    background-color: white;
+    color: black;
+}
+.illustration{
+    padding: 70px;
+}
+.illustration>div img{
+    width: 70%;
+}
+.illustration>div{
+    margin-top: 3%;
+    padding: 2%;
+    border-radius: 2%;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}.illustration-text{
+    color: grey;
+    padding: 10%;
+    text-align: start;
+}
+.illustration-text>h2{
+    margin-bottom: 4%;
+color: black;
+}
+.auto{
+    border-radius: 3%;
+    width: 50%;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 3%;
+    margin: auto;
+}
+.auto>p{
+    cursor: pointer;
+    background-color:  deeppink;
+    color: white;
+    width: 40%;
+    padding: 2%;
+    border-radius: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.auto>p:hover{
+    color: white;
+    background-color: black;
+}
+.footer{
+    color: whitesmoke;
+    padding: 7%;
+    z-index: -1;
+    margin-top: -5%;
+    position: relative;
+    background-color: darkslategrey;
+}
+.footer-bottom{
+    display: flex;
+}
+.footer-bottom>div{
+    padding: 2%;
+    margin-left:2%;
+}
+.footer-bottom>div p{
+    line-height: 120%;
+}
+.instagram{
+    background-color: darkslategray;
+}
+.intro{
+    width: 30%;
+}
+
+.socials>div img{
+    margin: 5%;
+    background-color: wheat;
+    padding: 10%;
+    border-radius: 50%;
+    border: 1% white groove;
+}
+
+@media screen and (max-width:691px){
+    body{
+        padding: 2px;
+    }
+    .navbar>p{
+        font-size: 15px;
+        font-weight: bold;
+
+    }
+    p{
+        font-size: 16px;
+    }
+    .getstarted{
+        margin: auto;
+        text-align: center;
+        width: 60%;
+    }
+    .navbar>img{
+    width: 100px;
+}
+    .navbar{
+        grid-template-columns: 50% 50%;
+    }
+   .header-body{
+       display: block;
+   }
+   .illustration>div{
+       display: block;
+   }
+   .header-body{
+       display: block;
+   }
+   .header{
+       padding: 10px;
+   }
+  .body-1{
+      padding: 2px;
+      text-align: center;
+  }
+  .illustration{
+      padding: 2%;
+  }
+  .logo{
+      width: 50%;
+  }
+  .footer{
+      padding-top: 9%;
+  }
+  .intro{
+      width: 80%;
+  }
+  .auto{
+
+      width: 70%;
+      padding: 1%;
+  }
+  .auto>p{
+      padding: 2%;
+      width: 60%;
+  }
+  .footer-bottom{
+      display: block;
+  }
+  .socials{
+      display: flex;
+      margin-left: 10%;
+  }
+  .socials>div{
+      margin-left: 10%;
+  }
+}
+
